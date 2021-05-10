@@ -1,4 +1,5 @@
 # -*- coding: cp1250 -*-
+#Urszula Romaniuk
 from numpy import random
 import sqlite3
 import datetime as t
@@ -68,7 +69,7 @@ if __name__ == '__main__':
 		elif argv[1]=='wyniki':
 			dane=cur.execute('select wyniki from wyniki_quizu order by data').fetchall()
 			if len(dane)==0:
-				print u'brak wyników'
+				print u'brak wynikĂłw'
 			elif len(dane)==1:
                                 print 'srednia w seri ', dane[0][0], '/5'
                         else:
