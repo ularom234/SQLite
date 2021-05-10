@@ -1,3 +1,6 @@
+# -*- coding: cp1250 -*-
+#Urszula Romaniuk
+
 import csv
 BAZA = 'ZAD2.db'
 from sqlite3 import connect
