@@ -1,6 +1,8 @@
 #! /usr/bin/python
 # coding utf8
 # -*- coding: UTF-8 -*
+#Urszula Romaniuk
+
 import re 
 
 def finder(line,regx):
